@@ -1,0 +1,150 @@
+.header{
+    border-bottom: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+}
+
+.header h2{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.left-header{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header div{
+    padding: 10px 35px;
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    border-left: 1px solid white;
+    width: 20%;
+    padding: 0 20px;
+}
+
+.profile-info h2{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.profile-info div{
+    background-color: #E6EBFF;
+    padding: 17px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-info div img{
+    width: 45px;
+}
+
+/* modal */
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.54);
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    position: fixed;
+    background-color: white;
+    color: black;
+    min-width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    z-index: 9999999;
+    padding: 40px 0;
+}
+
+.profile-div{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.greeting-heading{
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.profile-div h2{
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.modal img{
+    width: 130px;
+}
+
+.x{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.x:hover{
+    color: gray;
+}
+
+.log-out{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+    color: black;
+    margin: 10px 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    padding: 10px 25px;
+}
+
+.log-out:hover{
+    outline: 1.5px solid black;
+}
+
+.api{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.api:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s ease-in;
+    cursor: pointer;
+}

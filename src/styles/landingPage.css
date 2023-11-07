@@ -1,0 +1,43 @@
+.landing-page-container {
+    background: url(../assets/stars.png) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 52px;
+}
+
+.landing-page-container img {
+    width: 124px;
+    height: 126px;
+}
+
+.landing-page-container h1 {
+    color: #4980C0;
+    font-family: 'Rowdies', sans-serif;
+    font-size: 76px;
+    line-height: 95px;
+}
+
+.landing-page-container button {
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+    background-color: #4980C0;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    padding: 15px 60px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.landing-page-container button:hover {
+    background-color: rgb(58, 104, 156);
+}
+
+.landing-page-container button:active {
+    background-color: rgb(38, 69, 105);
+    transition: background-color 0.5s ease-in;
+}
