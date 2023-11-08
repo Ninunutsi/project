@@ -1,12 +1,12 @@
-.form-container{
+.form-container {
     color: white;
 }
 
-.form-content{
+.form-content {
     position: relative;
 }
 
-.table-container{
+.table-container {
     max-width: 70%;
     border-radius: 10px;
     overflow: hidden;
@@ -14,14 +14,14 @@
     position: relative;
 }
 
-.arr-th{
+.arr-th {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 6px;
 }
 
-.arrows-up-down{
+.arrows-up-down {
     display: flex;
     font-size: 12px;
     margin-top: 3px;
@@ -31,12 +31,12 @@
     color: gray;
 }
 
-.table-section{
+.table-section {
     overflow-x: auto;
     border-radius: 10px;
 }
 
-.table-section table{
+.table-section table {
     background-color: white;
     padding: 30px 0;
     width: 100%;
@@ -44,37 +44,37 @@
     border-radius: 10px;
 }
 
-table{
+table {
     border-collapse: collapse;
     color: black;
     padding-top: 20px;
     text-align: center;
-    min-height: 500px;
+    min-height: 70vh;
     /* overflow: hidden; */
 }
 
-th{
+th {
     font-weight: bold;
-    
 }
 
-td, th {
+td,
+th {
     text-align: center;
     padding: 10px 30px;
     font-size: 15px;
     min-width: 180px;
     line-height: 24px;
 }
-  
+
 tr:nth-child(even) {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
 }
 
-thead{
+thead {
     border-bottom: 1px solid rgb(205, 205, 205);
 }
 
-.pagination{
+.pagination {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@ thead{
     gap: 3px;
 }
 
-.paginate-button{
+.paginate-button {
     border: none;
     color: white;
     background-color: transparent;
@@ -96,25 +96,24 @@ thead{
     font-weight: bold;
 }
 
-.arrow{
+.arrow {
     cursor: pointer;
 }
 
-.table-header{
+.table-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 10px 0;
-    
 }
 
-.filter{
-    background-color: #F2F2F2;
+.filter {
+    background-color: #f2f2f2;
     display: flex;
     gap: 10px;
     align-items: center;
-    color:black;
+    color: black;
     font-size: 15px;
     line-height: 23px;
     width: 150px;
@@ -125,33 +124,33 @@ thead{
     cursor: pointer;
 }
 
-.filter:hover{
+.filter:hover {
     background-color: #dddddd;
     transition: 0.5s ease-in-out;
 }
 
-.filter img{
+.filter img {
     border-right: 1px solid #dcdcdc;
     padding-right: 5px;
     justify-self: left;
 }
 
-.filter h3{
+.filter h3 {
     margin: auto;
 }
 
-.search{
+.search {
     position: relative;
 }
 
-.search input{
+.search input {
     padding: 5px;
     padding-left: 30px;
     border-radius: 8px;
     border: none;
 }
 
-.search img{
+.search img {
     position: absolute;
     left: 4px;
     top: 50%;
@@ -159,24 +158,24 @@ thead{
     width: 20px;
 }
 
-.filter-pupUp{
+.filter-pupUp {
     width: 14%;
     padding: 30px 10px;
     background-color: white;
     border-radius: 10px;
     position: absolute;
     left: 0.5%;
-    top: 50px;
+    top: 55px;
     color: black;
 }
 
-.status{
+.status {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
 
-.filter-pupUp h3{
+.filter-pupUp h3 {
     font-size: 14px;
     line-height: 22px;
     font-weight: bold;
@@ -185,10 +184,10 @@ thead{
     cursor: pointer;
 }
 
-.filter-pupUp label{
+.filter-pupUp label {
     font-size: 12px;
 }
 
-.filter-pupUp input{
+.filter-pupUp input {
     color: black;
 }
